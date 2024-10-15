@@ -301,6 +301,7 @@ body{
 
 .timeline1 li .timeline1-panel{
     width: 80%;
+    float: none;
     margin: 0 auto;
     border: 1px solid #ccc;
     padding: 2rem;
