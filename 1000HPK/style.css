@@ -86,7 +86,7 @@ body{
 
 .home{
     background-color: #ccc;
-    background-image: url(../img/Wedding-Wallpapers.jpg);
+    background-image: url(../img/prohe1.jpg);
     background-size: cover;
     min-height: 100vh;
     margin-top: -6rem;
@@ -103,6 +103,10 @@ body{
     animation: slideIn1 1s ease forwards; /* Animasi masuk selama 1 detik */
 }
 
+.home h2{
+	color: white !important;
+}
+
 @keyframes slideIn1 {
     0% {
         transform: translateX(-200px); /* Mulai dari posisi di luar layar */
@@ -112,13 +116,14 @@ body{
     }
 }
 .home h3{
-    color: #444;
+    color: white;
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    margin-top: -10px;
+    margin-top: 2rem;
     transform: translateX(-200px); /* Mulai dari luar layar (di kiri) */
     animation: slideIn2 2s ease forwards; /* Animasi masuk selama 1 detik */
     text-align: center;
+	font-weight: bold;
 }
 
 @keyframes slideIn2 {
@@ -131,12 +136,19 @@ body{
 }
 
 .home p{
+	background-color: rgba(0,0,0,0.3);
     font-size: 1.1rem;
-    color: #666;
+    color: yellow;
     text-align: justify;
     text-indent: 30px;
     transform: translateX(-200px); /* Mulai dari luar layar (di kiri) */
     animation: slideIn3 4s ease forwards;
+	margin-top: 5rem;
+	font-weight: bold;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 @keyframes slideIn3 {
@@ -494,10 +506,10 @@ footer li{
     html{
         font-size: 65%;
     }
-    .home p{
-        padding-left: 5rem;
-        padding-right: 5rem;
-    }
+	.home p{
+		padding-left: 5rem;
+		padding-right: 5rem;
+	}
     .simply-countdown>.simply-section{
         padding: 60px;
         margin: 5px;
@@ -525,6 +537,10 @@ footer li{
     html{
         font-size: 60%;
     }
+	.home p{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
     .simply-countdown>.simply-section{
         padding: 45px;
         margin: 3px;
