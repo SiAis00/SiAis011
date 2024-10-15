@@ -262,6 +262,8 @@ body{
 
 .timeline1 li{
     margin-bottom: 1.5rem;
+	margin-left: 1.5rem;
+	margin-right: 1rem;
     position: relative;
 }
 
