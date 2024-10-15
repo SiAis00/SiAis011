@@ -262,8 +262,6 @@ body{
 
 .timeline1 li{
     margin-bottom: 1.5rem;
-	margin-left: 1.5rem;
-	margin-right: 1rem;
     position: relative;
 }
 
@@ -302,8 +300,8 @@ body{
 }
 
 .timeline1 li .timeline1-panel{
-    width: 95%;
-    float: left;
+    width: 80%;
+    float: center;
     border: 1px solid #ccc;
     padding: 2rem;
     position: relative;
