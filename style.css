@@ -592,6 +592,10 @@ footer li{
     html{
         font-size: 60%;
     }
+    .home p{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
     .simply-countdown>.simply-section{
         padding: 60px;
         margin: 5px;
