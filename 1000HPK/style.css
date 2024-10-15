@@ -138,7 +138,7 @@ body{
 .home p{
 	background-color: rgba(254,255,255,0.2);
     font-size: 1.1rem;
-    color: yellow;
+    color: black;
     text-align: justify;
     text-indent: 30px;
     transform: translateX(-200px); /* Mulai dari luar layar (di kiri) */
