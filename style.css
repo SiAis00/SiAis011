@@ -86,7 +86,6 @@ body{
 
 .home{
     background-color: #ccc;
-    background-image: url(img/maxresdefault.jpg);
     background-size: cover;
     min-height: 100vh;
     margin-top: -6rem;
@@ -116,10 +115,11 @@ body{
     color: #444;
     font-size: 1rem;
     margin-bottom: 1rem;
-    margin-top: -10px;
+    margin-top: 1.5rem;
     transform: translateX(-200px); /* Mulai dari luar layar (di kiri) */
     animation: slideIn2 2s ease forwards; /* Animasi masuk selama 1 detik */
     text-align: center;
+	font-weight: bold;
 }
 
 @keyframes slideIn2 {
@@ -133,10 +133,14 @@ body{
 
 
 .home p{
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     color: #131111;
     transform: translateX(-200px); /* Mulai dari luar layar (di kiri) */
     animation: slideIn3 4s ease forwards; /* Animasi masuk selama 1 detik */
+	color: black;
+	text-align: justify;
+	margin-top: 8rem;
+	font-family: timesnewroman;
 }
 
 @keyframes slideIn3 {
@@ -262,7 +266,8 @@ body{
 }
 
 .timeline1 li p{
-    font-size: 11px;
+    font-size: 1.2rem;
+	font-family: timesnewroman;
 }
 
 .timeline1 li .timeline1-body p{
@@ -295,7 +300,7 @@ body{
 }
 
 .timeline1 li .timeline1-panel{
-    width: 80%;
+    width: 95%;
     float: left;
     border: 1px solid #ccc;
     padding: 2rem;
@@ -592,10 +597,10 @@ footer li{
     html{
         font-size: 60%;
     }
-    .home p{
-        padding-left: 5rem;
-        padding-right: 5rem;
-    }
+	.home p{
+		padding-left: 5rem;
+		padding-right: 5rem;
+	}
     .simply-countdown>.simply-section{
         padding: 60px;
         margin: 5px;
@@ -612,10 +617,6 @@ footer li{
     .timeline li .timeline-image{
         width: 140px;
         height: 140px;
-    }
-
-    .timeline1 li p{
-        font-size: 8px;
     }
 }
 
