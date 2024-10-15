@@ -263,7 +263,6 @@ body{
 .timeline1 li{
     margin-bottom: 1.5rem;
     position: relative;
-	background-color: var(--pink);
 }
 
 .timeline1 li p{
@@ -307,7 +306,7 @@ body{
     padding: 2rem;
     position: relative;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #d8a9be;
     transform: translateX(-200px); /* Mulai dari luar layar (di kiri) */
     animation: slideIn 5s ease forwards; /* Animasi masuk selama 1 detik */
 }
