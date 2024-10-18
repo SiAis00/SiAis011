@@ -264,6 +264,7 @@ body{
     padding: 1.4rem 0;
     margin-top: 1rem;
     position: relative;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .timeline1 li{
@@ -276,33 +277,54 @@ body{
 	font-family: timesnewroman;
 }
 
+.timeline1 li h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-bottom: 1.5rem;
+}
+
 .timeline1 li .timeline1-body p{
     line-height: 1.5; /* Jarak antar baris */
     text-align: justify; /* Menyelaraskan teks ke kiri dan kanan */
     padding: 5px 0;
     padding-top: 5px;
     text-indent: 30px; /* Indentasi baris pertama */
+    margin-top: -15px;
+}
+
+.timeline1 li .timeline1-body li::marker{
+    font-weight: 200 !important;
+    font-size: 1.5rem !important;
+}
+
+.timeline1 li .timeline1-body li{
+    font-size: 1.5rem !important;
+    text-align: justify;
+}
+
+.timeline1 li .timeline1-body .timeline1-ol2 li{
+    margin-top: -15px;
 }
 
 #poin p{
-    margin-top: -10px;
+    margin-top: -15px;
     text-indent: 15px;
     text-align: justify;
 }
 
-
-.poin li{
-    color: green;
-    align-items: center;
-}
-
 .timeline1 li::before, .timeline1 li::after{
     content: '';
-    display: table;
 }
 
 .timeline1 li::after{
     clear: both;
+}
+
+.timeline1 .timeline1-panel .timeline1-ol li::marker{
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 .timeline1 li .timeline1-panel{
@@ -314,27 +336,6 @@ body{
     position: relative;
     border-radius: 8px;
     background-color: #d8a9be;
-    transform: translateX(-200px); /* Mulai dari luar layar (di kiri) */
-    animation: slideIn 5s ease forwards; /* Animasi masuk selama 1 detik */
-}
-
-@keyframes slideIn {
-    0% {
-        transform: translateX(-200px); /* Mulai dari posisi di luar layar */
-    }
-    100% {
-        transform: translateX(0); /* Berhenti di posisi aslinya */
-    }
-}
-
-.timeline1 li .timeline1-panel1{
-    width: 80%;
-    float: right;
-    border: 1px solid #ccc;
-    padding: 2rem;
-    position: relative;
-    border-radius: 8px;
-    background-color: #fff;
     transform: translateX(-200px); /* Mulai dari luar layar (di kiri) */
     animation: slideIn 5s ease forwards; /* Animasi masuk selama 1 detik */
 }
@@ -377,6 +378,10 @@ body{
 
 .timeline a{
     text-decoration: none;
+}
+
+.timeline .timeline-heading .link a{
+    color: var(--bg);
 }
 
 .timeline li{
