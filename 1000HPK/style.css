@@ -281,6 +281,10 @@ body{
     text-decoration: none;
 }
 
+.timeline .timeline-heading .link a{
+    color: var(--bg);
+}
+
 .timeline li{
     margin-bottom: 1.5rem;
     position: relative;
